@@ -142,7 +142,6 @@
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-
   .top-expertise,
   .testimonial-area,
   footer,
@@ -313,6 +312,19 @@
 
 /* X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  .button-wrapper .btn {
+    padding: 12px 32px;
+    font-size: 16px;
+  }
+  .top-expertise,
+  .testimonial-area,
+  footer,
+  .section {
+    padding: 40px 0;
+  }
+  .counterup-area .counterup-content-wrapper .single-counter-item {
+    padding: 16px;
+  }
   .section-title-wrapper,
   .accordion-area .section-title-wrapper {
     margin-bottom: 30px;
@@ -321,6 +333,10 @@
   .accordion-area .section-title-wrapper .section-title {
     font-size: 38px;
   }
+  .home-hero-area .hero-wrapper .hero-content-wrap .hero-heading {
+    font-size: 52px;
+  }
+
   .top-expertise
     .top-expertise-wrapper
     .right-side-content
@@ -332,6 +348,25 @@
     .single-case-study-item
     .case-study-content
     .case-study-title {
+    font-size: 20px;
+  }
+  .expertise-area
+    .expertise-wrapper
+    .expertise-content-wrapper
+    .right-side-content
+    .expertise-content-list
+    .single-expertise-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+  .expertise-area
+    .right-side-content
+    .expertise-content-list
+    .single-expertise-item
+    .expertise-content-details
+    .expertise-title {
     font-size: 20px;
   }
   .counterup-area .counterup-content-wrapper {
