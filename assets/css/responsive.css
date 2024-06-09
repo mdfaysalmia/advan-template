@@ -1,0 +1,363 @@
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .section-title-wrapper .section-title {
+    font-size: 80px;
+  }
+  .section {
+    padding: 80px 0;
+  }
+  .home-hero-area .hero-wrapper {
+    padding: 100px 0;
+  }
+  .home-hero-area .hero-wrapper .hero-content-wrap .hero-heading {
+    font-size: 165px;
+  }
+
+  .top-expertise
+    .top-expertise-wrapper
+    .right-side-content
+    .top-expertise-title {
+    font-size: 38px;
+  }
+  .expertise-area
+    .expertise-wrapper
+    .expertise-content-wrapper
+    .right-side-content {
+    max-width: 515px;
+  }
+
+  .testimonial-area
+    .testimonial-wrapper
+    .testimonial-slider
+    .testimonial-slider-content
+    .single-testimonial-item {
+    max-width: 100%;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .section {
+    padding: 80px 0;
+  }
+  .section-title-wrapper .section-title {
+    font-size: 64px;
+  }
+  .home-hero-area .hero-wrapper {
+    padding: 80px 0;
+  }
+  .home-hero-area .hero-wrapper .hero-content-wrap .hero-heading {
+    font-size: 120px;
+  }
+  .top-expertise .top-expertise-wrapper {
+    display: block;
+    width: 100%;
+  }
+  .top-expertise .top-expertise-wrapper .left-side-content img {
+    max-width: 100%;
+  }
+  .top-expertise .top-expertise-wrapper .right-side-content {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+  .top-expertise
+    .top-expertise-wrapper
+    .right-side-content
+    .top-expertise-title {
+    display: block;
+    font-size: 38px;
+  }
+  .expertise-area .expertise-wrapper .expertise-content-wrapper {
+    display: block;
+    margin-top: 0;
+  }
+  .expertise-area
+    .expertise-wrapper
+    .expertise-content-wrapper
+    .left-side-content {
+    max-width: 100%;
+    text-align: center;
+  }
+  .expertise-area
+    .expertise-wrapper
+    .expertise-content-wrapper
+    .left-side-content
+    .expertise-thumbnail {
+    width: auto;
+  }
+  .expertise-area
+    .expertise-wrapper
+    .expertise-content-wrapper
+    .right-side-content
+    .expertise-content-list {
+    margin-top: 40px;
+  }
+  .case-study-area .case-study-wrapper {
+    display: block;
+    margin-top: 0;
+  }
+  .case-study-area .case-study-wrapper .single-case-study-item {
+    margin-bottom: 40px;
+  }
+  .case-study-area .case-study-wrapper .single-case-study-item:nth-child(even) {
+    padding-top: 0;
+  }
+  .counterup-area .counterup-content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    padding-bottom: 10px;
+  }
+  .testimonial-area .section-title-wrapper .section-title {
+    padding-left: 82px;
+  }
+  .testimonial-area .section-title-wrapper .section-title span {
+    margin-left: -70px;
+  }
+
+  .testimonial-area
+    .testimonial-wrapper
+    .testimonial-slider
+    .testimonial-slider-content
+    .single-testimonial-item {
+    max-width: 100%;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+  .testimonial-wrapper .testimonial-background-image {
+    position: absolute;
+    bottom: -267px;
+    left: 0px;
+  }
+  footer {
+    padding: 80px 0;
+  }
+  footer .footer-widget-wrapper .footer-widget .footer-logo img {
+    max-width: auto;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+  .top-expertise,
+  .testimonial-area,
+  footer,
+  .section {
+    padding: 60px 0;
+  }
+
+  p {
+    font-size: 16px;
+  }
+  .section-title-wrapper .section-title {
+    font-size: 56px;
+    text-align: center;
+  }
+  .contact-area .section-title-wrapper,
+  .expertise-area .expertise-wrapper .section-title-wrapper {
+    margin-bottom: 30px;
+  }
+  .contact-area .section-title-wrapper .title-description {
+    margin-top: 10px;
+    text-align: center;
+  }
+  .expertise-area
+    .expertise-wrapper
+    .expertise-content-wrapper
+    .right-side-content
+    .expertise-content-list
+    .single-expertise-item {
+    padding: 20px 0;
+    gap: 15px;
+  }
+  .expertise-area
+    .right-side-content
+    .expertise-content-list
+    .single-expertise-item
+    .expertise-content-details
+    .expertise-title {
+    font-size: 26px;
+    margin-bottom: 6px;
+  }
+  .expertise-area
+    .right-side-content
+    .expertise-content-list
+    .single-expertise-item
+    .expertise-content-details
+    .expertise-description {
+    font-size: 14px;
+  }
+  .home-hero-area .hero-wrapper {
+    padding: 60px 0;
+  }
+  .home-hero-area .hero-wrapper .hero-content-wrap .hero-heading {
+    font-size: 90px;
+  }
+  .home-hero-area .hero-wrapper .hero-content-wrap .hero-thumbnail {
+    top: 10px;
+  }
+
+  .expertise-area .expertise-wrapper .section-title-wrapper .section-title {
+    padding-left: 0px;
+  }
+  .expertise-area
+    .expertise-wrapper
+    .section-title-wrapper
+    .section-title
+    span {
+    display: inline-block;
+    margin-left: 0px;
+  }
+  .case-study-area .section-title-wrapper {
+    margin-bottom: 40px;
+  }
+  .case-study-area .section-title-wrapper .section-title span {
+    text-align: center;
+    padding: 0;
+  }
+  .counterup-area
+    .counterup-content-wrapper
+    .single-counter-item
+    .counter-title {
+    margin: 40px 0;
+    font-size: 20px;
+  }
+  .counterup-area
+    .counterup-content-wrapper
+    .single-counter-item
+    .counter-count {
+    font-size: 48px;
+  }
+
+  .testimonial-area
+    .testimonial-wrapper
+    .testimonial-slider
+    .testimonial-slider-content
+    .single-testimonial-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 24px;
+    text-align: center;
+  }
+  .testimonial-area .testimonial-wrapper .testimonial-slider {
+    overflow: hidden;
+  }
+  .testimonial-area .section-title-wrapper .section-title {
+    padding: 0;
+  }
+  .testimonial-area .section-title-wrapper .section-title span {
+    margin-left: 0px;
+  }
+  .testimonial-wrapper .testimonial-background-image {
+    display: none;
+  }
+  .logo-strip-area .logo-strip-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .accordion-area .section-title-wrapper .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .accordion-area .section-title-wrapper .section-title span {
+    text-align: center;
+  }
+  .accordion-area
+    .accordion
+    .accordion-item
+    .accordion-header
+    .accordion-button {
+    font-size: 18px;
+  }
+  .accordion-area .accordion .accordion-item {
+    padding: 18px 26px;
+  }
+  .contact-area .contact-wrapper .form-list-wrap {
+    display: block;
+  }
+  .contact-area
+    .contact-wrapper
+    .single-form-list-wrap
+    .input-item
+    input.form-control,
+  .contact-area
+    .contact-wrapper
+    .form-list-wrap
+    .input-item
+    input.form-control {
+    margin-bottom: 20px;
+  }
+  .contact-area .contact-wrapper .form-tags-wrapper {
+    display: block;
+  }
+  .contact-area .contact-wrapper .form-tags-wrapper .left-content {
+    margin-bottom: 20px;
+  }
+  .form-tags-wrapper .tags-wrap .form-check .form-check-label {
+    padding: 6px 12px;
+  }
+  footer .footer-widget-wrapper .footer-widget .footer-logo img {
+    max-width: 100%;
+  }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .section-title-wrapper,
+  .accordion-area .section-title-wrapper {
+    margin-bottom: 30px;
+  }
+  .section-title-wrapper .section-title,
+  .accordion-area .section-title-wrapper .section-title {
+    font-size: 38px;
+  }
+  .top-expertise
+    .top-expertise-wrapper
+    .right-side-content
+    .top-expertise-title {
+    font-size: 30px;
+  }
+  .case-study-area
+    .case-study-wrapper
+    .single-case-study-item
+    .case-study-content
+    .case-study-title {
+    font-size: 20px;
+  }
+  .counterup-area .counterup-content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .logo-strip-area .logo-strip-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .accordion-area .accordion .accordion-item {
+    padding: 14px 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+  }
+  .accordion-area
+    .accordion
+    .accordion-item
+    .accordion-header
+    .accordion-button {
+    font-size: 16px;
+  }
+}
